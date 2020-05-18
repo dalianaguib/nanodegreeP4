@@ -9,11 +9,11 @@ dockerpath=dalianaguib/project4
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-/home/ec2-user/kubectl run project4 --image=$dockerpath --port=80
+kubectl run project4 --image=$dockerpath --port=80
 
 # Step 3:
 # List kubernetes pods
-/home/ec2-user/kubectl get pods
+kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
