@@ -1,1 +1,6 @@
-<paste log output from Kubernetes-mediated prediction, here>
+NAME                                READY   STATUS    RESTARTS   AGE
+udacity-p4-5c6ffd969-bwl97          1/1     Running   0          40s
+udacity-project4-5b7b45f6f6-gkjzr   1/1     Running   1          165m
+Forwarding from 127.0.0.1:8080 -> 80
+Forwarding from [::1]:8080 -> 80
+
